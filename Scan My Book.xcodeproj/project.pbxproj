@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1D705A16A4082D00DA4A7E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1D705916A4082D00DA4A7E /* CoreMedia.framework */; };
+		0F1D706116A4092800DA4A7E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1D706016A4092800DA4A7E /* CoreImage.framework */; };
+		0F1D706316A4092F00DA4A7E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1D706216A4092F00DA4A7E /* QuartzCore.framework */; };
+		0F1D706516A4097C00DA4A7E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1D706416A4097C00DA4A7E /* AudioToolbox.framework */; };
+		0F2C0F5516A6913E0002EEAB /* ZAActivityBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0F2C0F5216A6913E0002EEAB /* ZAActivityBar.bundle */; };
+		0F2C0F5616A6913E0002EEAB /* ZAActivityBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C0F5416A6913E0002EEAB /* ZAActivityBar.m */; };
+		0F2C0F5916A6917B0002EEAB /* SKBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C0F5816A6917B0002EEAB /* SKBounceAnimation.m */; };
+		0F2C0F6016A69F900002EEAB /* BookService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2C0F5F16A69F900002EEAB /* BookService.m */; };
 		0F3BBDEF16A0078100765516 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BBDEE16A0078100765516 /* UIKit.framework */; };
 		0F3BBDF116A0078100765516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BBDF016A0078100765516 /* Foundation.framework */; };
 		0F3BBDF316A0078100765516 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BBDF216A0078100765516 /* CoreGraphics.framework */; };
@@ -23,9 +31,74 @@
 		0F3BBE1216A0078100765516 /* HJSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3BBE1116A0078100765516 /* HJSecondViewController.m */; };
 		0F3BBE1416A0078100765516 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3BBE1316A0078100765516 /* second.png */; };
 		0F3BBE1616A0078100765516 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F3BBE1516A0078100765516 /* second@2x.png */; };
+		0F3BBE1D16A00A3C00765516 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BBE1C16A00A3C00765516 /* WindowsAzureMobileServices.framework */; };
+		0F3BBE4C16A013E900765516 /* libZXingObjC-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BBE4116A0135F00765516 /* libZXingObjC-iOS.a */; };
+		0F3BBE4E16A013F500765516 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BBE4D16A013F500765516 /* AVFoundation.framework */; };
+		0F3BBE5016A0140900765516 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BBE4F16A0140900765516 /* CoreVideo.framework */; };
+		0F3BBE5216A0141300765516 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F3BBE5116A0141300765516 /* ImageIO.framework */; };
+		0FA7541116A5392000A8A99E /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7540D16A5392000A8A99E /* TBXML.m */; };
+		0FA7541216A5392000A8A99E /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7540E16A5392000A8A99E /* TBXML+HTTP.m */; };
+		0FA7541416A53D8A00A8A99E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA7541316A53D8A00A8A99E /* libz.dylib */; };
+		0FA7541716A556DF00A8A99E /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7541616A556DF00A8A99E /* BookModel.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0F3BBE4016A0135F00765516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3BBE3416A0135E00765516 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25403CB3166A96FA00E13304;
+			remoteInfo = "ZXingObjC-iOS";
+		};
+		0F3BBE4216A0135F00765516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3BBE3416A0135E00765516 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25403CC4166A96FA00E13304;
+			remoteInfo = "ZXingObjCTests-iOS";
+		};
+		0F3BBE4416A0135F00765516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3BBE3416A0135E00765516 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25404166166AADAC00E13304;
+			remoteInfo = "ZXingObjC-osx";
+		};
+		0F3BBE4616A0135F00765516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3BBE3416A0135E00765516 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25404178166AADAC00E13304;
+			remoteInfo = "ZXingObjCTests-osx";
+		};
+		0F3BBE4816A0135F00765516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3BBE3416A0135E00765516 /* ZXingObjC.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2540439E166ABA0A00E13304;
+			remoteInfo = "OS X Framework";
+		};
+		0F3BBE4A16A013CB00765516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F3BBE3416A0135E00765516 /* ZXingObjC.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25403CB2166A96FA00E13304;
+			remoteInfo = "ZXingObjC-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0F1D705916A4082D00DA4A7E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0F1D706016A4092800DA4A7E /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0F1D706216A4092F00DA4A7E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0F1D706416A4097C00DA4A7E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0F2C0F5216A6913E0002EEAB /* ZAActivityBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZAActivityBar.bundle; sourceTree = "<group>"; };
+		0F2C0F5316A6913E0002EEAB /* ZAActivityBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAActivityBar.h; sourceTree = "<group>"; };
+		0F2C0F5416A6913E0002EEAB /* ZAActivityBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAActivityBar.m; sourceTree = "<group>"; };
+		0F2C0F5716A6917B0002EEAB /* SKBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBounceAnimation.h; sourceTree = "<group>"; };
+		0F2C0F5816A6917B0002EEAB /* SKBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBounceAnimation.m; sourceTree = "<group>"; };
+		0F2C0F5E16A69F900002EEAB /* BookService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookService.h; sourceTree = "<group>"; };
+		0F2C0F5F16A69F900002EEAB /* BookService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookService.m; sourceTree = "<group>"; };
 		0F3BBDEA16A0078100765516 /* Scan My Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scan My Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3BBDEE16A0078100765516 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0F3BBDF016A0078100765516 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,6 +121,18 @@
 		0F3BBE1116A0078100765516 /* HJSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJSecondViewController.m; sourceTree = "<group>"; };
 		0F3BBE1316A0078100765516 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		0F3BBE1516A0078100765516 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		0F3BBE1C16A00A3C00765516 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		0F3BBE3416A0135E00765516 /* ZXingObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingObjC.xcodeproj; path = ../../ZXingObjC/ZXingObjC.xcodeproj; sourceTree = "<group>"; };
+		0F3BBE4D16A013F500765516 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0F3BBE4F16A0140900765516 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0F3BBE5116A0141300765516 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0FA7540D16A5392000A8A99E /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		0FA7540E16A5392000A8A99E /* TBXML+HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TBXML+HTTP.m"; sourceTree = "<group>"; };
+		0FA7540F16A5392000A8A99E /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		0FA7541016A5392000A8A99E /* TBXML+HTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TBXML+HTTP.h"; sourceTree = "<group>"; };
+		0FA7541316A53D8A00A8A99E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0FA7541516A556DF00A8A99E /* BookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
+		0FA7541616A556DF00A8A99E /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,15 +140,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA7541416A53D8A00A8A99E /* libz.dylib in Frameworks */,
+				0F1D706516A4097C00DA4A7E /* AudioToolbox.framework in Frameworks */,
+				0F1D706316A4092F00DA4A7E /* QuartzCore.framework in Frameworks */,
+				0F1D706116A4092800DA4A7E /* CoreImage.framework in Frameworks */,
+				0F1D705A16A4082D00DA4A7E /* CoreMedia.framework in Frameworks */,
+				0F3BBE5216A0141300765516 /* ImageIO.framework in Frameworks */,
+				0F3BBE5016A0140900765516 /* CoreVideo.framework in Frameworks */,
+				0F3BBDF316A0078100765516 /* CoreGraphics.framework in Frameworks */,
+				0F3BBE4E16A013F500765516 /* AVFoundation.framework in Frameworks */,
+				0F3BBE4C16A013E900765516 /* libZXingObjC-iOS.a in Frameworks */,
 				0F3BBDEF16A0078100765516 /* UIKit.framework in Frameworks */,
 				0F3BBDF116A0078100765516 /* Foundation.framework in Frameworks */,
-				0F3BBDF316A0078100765516 /* CoreGraphics.framework in Frameworks */,
+				0F3BBE1D16A00A3C00765516 /* WindowsAzureMobileServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F2C0F5116A6913E0002EEAB /* ZAActivityBar */ = {
+			isa = PBXGroup;
+			children = (
+				0F2C0F5716A6917B0002EEAB /* SKBounceAnimation.h */,
+				0F2C0F5816A6917B0002EEAB /* SKBounceAnimation.m */,
+				0F2C0F5216A6913E0002EEAB /* ZAActivityBar.bundle */,
+				0F2C0F5316A6913E0002EEAB /* ZAActivityBar.h */,
+				0F2C0F5416A6913E0002EEAB /* ZAActivityBar.m */,
+			);
+			path = ZAActivityBar;
+			sourceTree = "<group>";
+		};
 		0F3BBDDF16A0078100765516 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +191,16 @@
 		0F3BBDED16A0078100765516 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0FA7541316A53D8A00A8A99E /* libz.dylib */,
+				0F3BBE3416A0135E00765516 /* ZXingObjC.xcodeproj */,
+				0F1D706416A4097C00DA4A7E /* AudioToolbox.framework */,
+				0F1D706216A4092F00DA4A7E /* QuartzCore.framework */,
+				0F1D706016A4092800DA4A7E /* CoreImage.framework */,
+				0F1D705916A4082D00DA4A7E /* CoreMedia.framework */,
+				0F3BBE5116A0141300765516 /* ImageIO.framework */,
+				0F3BBE4F16A0140900765516 /* CoreVideo.framework */,
+				0F3BBE4D16A013F500765516 /* AVFoundation.framework */,
+				0F3BBE1C16A00A3C00765516 /* WindowsAzureMobileServices.framework */,
 				0F3BBDEE16A0078100765516 /* UIKit.framework */,
 				0F3BBDF016A0078100765516 /* Foundation.framework */,
 				0F3BBDF216A0078100765516 /* CoreGraphics.framework */,
@@ -94,6 +211,9 @@
 		0F3BBDF416A0078100765516 /* Scan My Book */ = {
 			isa = PBXGroup;
 			children = (
+				0F2C0F5116A6913E0002EEAB /* ZAActivityBar */,
+				0FA7540C16A538F700A8A99E /* TBXML */,
+				0F3BBE5816A017A300765516 /* Model */,
 				0F3BBDFD16A0078100765516 /* HJAppDelegate.h */,
 				0F3BBDFE16A0078100765516 /* HJAppDelegate.m */,
 				0F3BBE0616A0078100765516 /* MainStoryboard.storyboard */,
@@ -124,6 +244,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0F3BBE3516A0135E00765516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F3BBE4116A0135F00765516 /* libZXingObjC-iOS.a */,
+				0F3BBE4316A0135F00765516 /* ZXingObjCTests-iOS.octest */,
+				0F3BBE4516A0135F00765516 /* libZXingObjC-osx.a */,
+				0F3BBE4716A0135F00765516 /* ZXingObjCTests-osx.octest */,
+				0F3BBE4916A0135F00765516 /* ZXingObjC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F3BBE5816A017A300765516 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7541516A556DF00A8A99E /* BookModel.h */,
+				0FA7541616A556DF00A8A99E /* BookModel.m */,
+				0F2C0F5E16A69F900002EEAB /* BookService.h */,
+				0F2C0F5F16A69F900002EEAB /* BookService.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0FA7540C16A538F700A8A99E /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7540D16A5392000A8A99E /* TBXML.m */,
+				0FA7540E16A5392000A8A99E /* TBXML+HTTP.m */,
+				0FA7540F16A5392000A8A99E /* TBXML.h */,
+				0FA7541016A5392000A8A99E /* TBXML+HTTP.h */,
+			);
+			name = TBXML;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +292,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0F3BBE4B16A013CB00765516 /* PBXTargetDependency */,
 			);
 			name = "Scan My Book";
 			productName = "Scan My Book";
@@ -164,12 +319,56 @@
 			mainGroup = 0F3BBDDF16A0078100765516;
 			productRefGroup = 0F3BBDEB16A0078100765516 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0F3BBE3516A0135E00765516 /* Products */;
+					ProjectRef = 0F3BBE3416A0135E00765516 /* ZXingObjC.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0F3BBDE916A0078100765516 /* Scan My Book */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0F3BBE4116A0135F00765516 /* libZXingObjC-iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libZXingObjC-iOS.a";
+			remoteRef = 0F3BBE4016A0135F00765516 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0F3BBE4316A0135F00765516 /* ZXingObjCTests-iOS.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ZXingObjCTests-iOS.octest";
+			remoteRef = 0F3BBE4216A0135F00765516 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0F3BBE4516A0135F00765516 /* libZXingObjC-osx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libZXingObjC-osx.a";
+			remoteRef = 0F3BBE4416A0135F00765516 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0F3BBE4716A0135F00765516 /* ZXingObjCTests-osx.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ZXingObjCTests-osx.octest";
+			remoteRef = 0F3BBE4616A0135F00765516 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0F3BBE4916A0135F00765516 /* ZXingObjC.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ZXingObjC.framework;
+			remoteRef = 0F3BBE4816A0135F00765516 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0F3BBDE816A0078100765516 /* Resources */ = {
@@ -185,6 +384,7 @@
 				0F3BBE0F16A0078100765516 /* first@2x.png in Resources */,
 				0F3BBE1416A0078100765516 /* second.png in Resources */,
 				0F3BBE1616A0078100765516 /* second@2x.png in Resources */,
+				0F2C0F5516A6913E0002EEAB /* ZAActivityBar.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,10 +399,24 @@
 				0F3BBDFF16A0078100765516 /* HJAppDelegate.m in Sources */,
 				0F3BBE0B16A0078100765516 /* HJFirstViewController.m in Sources */,
 				0F3BBE1216A0078100765516 /* HJSecondViewController.m in Sources */,
+				0FA7541116A5392000A8A99E /* TBXML.m in Sources */,
+				0FA7541216A5392000A8A99E /* TBXML+HTTP.m in Sources */,
+				0FA7541716A556DF00A8A99E /* BookModel.m in Sources */,
+				0F2C0F5616A6913E0002EEAB /* ZAActivityBar.m in Sources */,
+				0F2C0F5916A6917B0002EEAB /* SKBounceAnimation.m in Sources */,
+				0F2C0F6016A69F900002EEAB /* BookService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F3BBE4B16A013CB00765516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZXingObjC-iOS";
+			targetProxy = 0F3BBE4A16A013CB00765516 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0F3BBDF716A0078100765516 /* InfoPlist.strings */ = {
@@ -277,6 +491,10 @@
 		0F3BBE1A16A0078100765516 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scan My Book/Scan My Book-Prefix.pch";
 				INFOPLIST_FILE = "Scan My Book/Scan My Book-Info.plist";
@@ -288,6 +506,10 @@
 		0F3BBE1B16A0078100765516 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Scan My Book/Scan My Book-Prefix.pch";
 				INFOPLIST_FILE = "Scan My Book/Scan My Book-Info.plist";
@@ -315,6 +537,7 @@
 				0F3BBE1B16A0078100765516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

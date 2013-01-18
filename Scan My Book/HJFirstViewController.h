@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
+#import "BookModel.h"
+#import "BookService.h"
 
-@interface HJFirstViewController : UIViewController
+@interface HJFirstViewController : UIViewController <ZXCaptureDelegate>
+{
+    BookModel *myBook;
+}
+
+//@property (nonatomic, strong) BookService *bookService;
 
 @end
